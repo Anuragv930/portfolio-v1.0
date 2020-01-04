@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background-color: #F8F8F8;
+    color: #2B2B2B;
+}
+
+#main-header {
+    height: 75vh;
+    background-color: #E8E8E8;
+}
+
+#main-header .navbar {
+    font-weight: 700;
+    text-align: center;
+    background: none;
+    border: none;
+}
+
+#main-header .navbar .navbar-nav {
+    margin: auto;
+}
+
+#main-header .navbar .navbar-nav .nav-item {
+    margin: 0 1rem;
+}
+
+#main-header .intro {
+    display: table;
+    text-align: center;
+    margin: auto;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+#main-content .avatar {
+    margin: auto;
+    margin-top: -6rem;
+    border-radius: 10rem;
+    border: 0.5rem solid #898989;
+    width: 15rem;
+    height: 15rem;
+    background-image: url(../img/animesh-dp.jpg);
+    background-size: cover;
+
+}
+
+#main-content .about {
+    margin: auto;
+    margin-top: 5rem;
+}
+
+#main-content .about .card {
+    margin: auto;
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 20px -7px rgba(0,0,0,0.75);
+}
+
+#main-content .about .card .card-header {
+    background-color: #2B2B2B;
+    color: #E8E8E8;
+    border: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 100;
+    text-shadow: -1px 2px 3px rgba(0,0,0,0.4);
+}
+
+#main-content .about .card .card-body {
+    border: none;
+    margin: 2rem auto;
+    font-weight: 400;
+}
+
+#main-content .about .carousel {
+    margin: auto;
+    margin-top: 5rem;
+    background-color: #2B2B2B;
+    color: #F8F8F8;
+    border-radius: 0.5rem;
+    box-shadow: 0px 10px 20px -7px rgba(0,0,0,0.75);
+}
+
+#main-content .about .carousel .carousel-inner {
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#main-content .about .carousel .carousel-inner .carousel-item {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+#main-content .contact {
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 20px -7px rgba(0,0,0,0.75);
+}
+
+#main-content .contact .card .card-header {
+    background-color: #E8E8E8;
+    color: #2B2B2B;
+    border: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 100;
+    text-shadow: -1px 2px 3px rgba(0,0,0,0.4);
+}
+
+#main-content .contact .card .card-body {
+    border: none;
+    margin: 2rem auto;
+    font-weight: 400;
+}
+
+#main-footer {
+    height: 25vh;
+    background-color: black;
+    color: #F8F8F8;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 4.5rem;
+}
+
+#main-footer .foot-note {
+    margin: auto;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5rem 3rem;
+    margin: auto;
+    display: inline-block;
+    background: linear-gradient(to right bottom, #E5FFB4, #99E2FA) ;
+    color: #000;
+    font-weight: 700;
+    border: none;
+    border-radius: 3rem;
+    transition: all 0.2s ease-out;
+    position: relative;
+}
+
+.btn:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0,0.4);
+
+}
+
+.btn:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0,0.4);
+}
+
+.btn-primary{
+  background: linear-gradient(to right bottom, #E5FFB4, #99E2FA) ;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+}
+
+.btn-primary::after {
+  background: linear-gradient(to right bottom, #E5FFB4, #99E2FA) ;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
