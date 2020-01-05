@@ -21,9 +21,11 @@ body {
 }
 #main-header .download {
     font-weight: 700;
-    text-align: right;
+    right: 3.5%;
     background: none;
     border: none;
+    position: fixed;
+    z-index: 1;
 }
 
 #main-header .intro {
@@ -178,6 +180,48 @@ body {
     z-index: 1;
 }
 
+#main-content .skills .django-icon {
+    margin: 1% auto;
+    border: none;
+    background-color: #FFF;
+    box-shadow: 0px 10px 25px -7px rgba(0,0,0,0.75);
+}
+
+#main-content .skills .tf-icon {
+    margin: 1% auto;
+    border: none;
+    background-color: #FFF;
+    box-shadow: 0px 10px 25px -7px rgba(0,0,0,0.75);
+}
+
+#main-content .skills .framework {
+    margin-bottom: 4%;
+}
+
+#main-content .skills .numpy-icon {
+    margin: auto;
+    border: none;
+    background-color: none;
+}
+
+#main-content .skills .pandas-icon {
+    margin: auto;
+    border: none;
+    background-color: none;
+}
+
+#main-content .skills .opencv-icon {
+    margin: auto;
+    border: none;
+    background-color: none;
+}
+
+#main-content .skills .sklearn-icon {
+    margin: auto;
+    border: none;
+    background-color: none;
+}
+
 #main-content .contact {
     margin: auto;
     margin-top: 5rem;
@@ -239,13 +283,13 @@ body {
 .btn:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0.5rem 3rem;
+    padding: 0.5rem .90rem;
     margin: auto;
     display: inline-block;
     background: #99E2FA ;
     color: #000;
     box-shadow: 0px 10px 20px -7px rgba(0,0,0,0.75);
-    font-weight: 700;
+    font-size: 1.5em;
     border: none;
     border-radius: 3rem;
     transition: all 0.2s ease-out;
