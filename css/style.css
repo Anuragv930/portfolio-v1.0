@@ -19,6 +19,7 @@ body {
 #main-header .container {
     padding-top: 1rem;
 }
+
 #main-header .download {
     font-weight: 700;
     right: 3.5%;
@@ -48,7 +49,7 @@ body {
     margin-bottom: -10rem;
     border-radius: 10rem;
     border: 0.5rem solid #898989;
-    box-shadow: 0px 10px 20px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 20px -7px rgba(0, 0, 0, 0.75);
     width: 10rem;
     height: 10rem;
     background-image: url(../img/bitmoji.jpeg);
@@ -67,7 +68,7 @@ body {
     text-align: center;
     border: none;
     border-radius: 1rem;
-    box-shadow: 0px 10px 20px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 20px -7px rgba(0, 0, 0, 0.75);
 }
 
 #main-content .about .card .card-header {
@@ -77,7 +78,7 @@ body {
     text-transform: uppercase;
     font-size: 2em;
     font-weight: 100;
-    text-shadow: -1px 2px 3px rgba(0,0,0,0.4);
+    text-shadow: -1px 2px 3px rgba(0, 0, 0, 0.4);
 }
 
 #main-content .about .card .card-body {
@@ -91,6 +92,7 @@ body {
     margin-top: 3rem;
     background: none;
     color: #2B2B2B;
+    backface-visibility: hidden;
 }
 
 #main-content .about .carousel .carousel-inner {
@@ -106,7 +108,7 @@ body {
 }
 
 #main-content .skills {
-    background: none;
+    background: #E8E8E8;
     text-align: center;
 }
 
@@ -134,7 +136,7 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     color: #2B2B2B;
-    text-shadow: -1px 2px 3px rgba(0,0,0,0.4);
+    text-shadow: -1px 2px 3px rgba(0, 0, 0, 0.4);
 }
 
 #main-content .skills .card {
@@ -163,7 +165,7 @@ body {
     width: 8rem;
     height: 8rem;
     background-color: #FFF;
-    background-image: url(../img/C+.png);
+    background-image: url(../img/c+.png);
     background-size: cover;
     z-index: 1;
 }
@@ -184,14 +186,14 @@ body {
     margin: 1% auto;
     border: none;
     background-color: #FFF;
-    box-shadow: 0px 10px 25px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 25px -7px rgba(0, 0, 0, 0.75);
 }
 
 #main-content .skills .tf-icon {
     margin: 1% auto;
     border: none;
     background-color: #FFF;
-    box-shadow: 0px 10px 25px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 25px -7px rgba(0, 0, 0, 0.75);
 }
 
 #main-content .skills .framework {
@@ -229,7 +231,7 @@ body {
     text-align: center;
     border: none;
     border-radius: 1rem;
-    box-shadow: 0px 10px 20px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 20px -7px rgba(0, 0, 0, 0.75);
     position: relative;
 }
 
@@ -240,7 +242,7 @@ body {
     text-transform: uppercase;
     font-size: 2em;
     font-weight: 100;
-    text-shadow: -1px 2px 3px rgba(0,0,0,0.4);
+    text-shadow: -1px 2px 3px rgba(0, 0, 0, 0.4);
 }
 
 #main-content .contact .card .card-body {
@@ -257,7 +259,7 @@ body {
     margin-bottom: -10rem;
     border-radius: 10rem;
     border: 0.2rem solid #2B2B2B;
-    box-shadow: 0px 10px 20px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 20px -7px rgba(0, 0, 0, 0.75);
     width: 6rem;
     height: 6rem;
     background-image: url(../img/animesh-dp.jpg);
@@ -286,9 +288,9 @@ body {
     padding: 0.5rem .90rem;
     margin: auto;
     display: inline-block;
-    background: #99E2FA ;
+    background: #99E2FA;
     color: #000;
-    box-shadow: 0px 10px 20px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 20px -7px rgba(0, 0, 0, 0.75);
     font-size: 1.5em;
     border: none;
     border-radius: 3rem;
@@ -298,17 +300,17 @@ body {
 
 .btn:hover {
     transform: translateY(-0.3rem);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0,0.4);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
 
 }
 
 .btn:active {
     transform: translateY(-0.1rem);
-    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0,0.4);
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.4);
 }
 
-.btn-primary{
-  background: linear-gradient(to right bottom, #E5FFB4, #99E2FA) ;
+.btn-primary {
+    background: linear-gradient(to right bottom, #E5FFB4, #99E2FA);
 }
 
 .btn::after {
@@ -325,7 +327,7 @@ body {
 }
 
 .btn-primary::after {
-  background: linear-gradient(to right bottom, #E5FFB4, #99E2FA) ;
+    background: linear-gradient(to right bottom, #E5FFB4, #99E2FA);
 }
 
 .btn:hover::after {
@@ -340,9 +342,9 @@ body {
     padding: 1rem 1.5rem;
     margin: auto 2.5%;
     display: inline-block;
-    background: #E8E8E8 ;
+    background: #E8E8E8;
     color: #000;
-    box-shadow: 0px 10px 20px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 20px -7px rgba(0, 0, 0, 0.75);
     font-size: 1.5em;
     border: none;
     border-radius: 3rem;
